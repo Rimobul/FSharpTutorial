@@ -3,6 +3,7 @@
 module Tuples = 
     open System
 
+    // 1. Tuples
     let tuple1 = (5, 10)
     let tuple2 = (4.4, "Some random words")
 
@@ -18,4 +19,6 @@ module Tuples =
 
     tuple1 < (5, 11) |> Console.WriteLine
 
+    // normal tuples are reference objects on heap
+    // but we can create value objects on stack
     let tuple4 = struct (4, 4)

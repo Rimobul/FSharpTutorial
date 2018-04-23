@@ -2,6 +2,8 @@
 
 module Records = 
 
+    // 2 records
+    // also can be value objects on stack if we use the struct attribute
     [<Struct>]
     type PersonRecord =
         {

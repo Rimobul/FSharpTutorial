@@ -3,6 +3,8 @@ namespace DataTypes
 open System
 module DiscriminatedUnions = 
 
+    // 3 discriminated unions
+    // like enums, but each case can have different data
     type TrafficSignals = 
     | Red
     | Yellow
