@@ -262,6 +262,15 @@ paket-files/
 
 # FAKE - F# Make
 .fake/
+/packages
+build.cmd
+build.fsx
+build.sh
+paket.dependencies
+paket.lock
+Paket.Restore.targets
+paket.targets
+paket.bootstrapper.exe
 
 # JetBrains Rider
 .idea/
