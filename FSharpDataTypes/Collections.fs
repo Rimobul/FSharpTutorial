@@ -28,6 +28,10 @@ module Collections =
     let l3 = List.init 3 (fun id -> id + 1)
     // unlike array, an empty list can be created
     let l4 : int list = []
+
+    // immutable
+    // l4.[2] <- 7
+    
     // the cons operator adds a new element to the head of the old list,
     // essentially creating a pointer to the start of a "new list"
     let l5 = 0 :: l1
